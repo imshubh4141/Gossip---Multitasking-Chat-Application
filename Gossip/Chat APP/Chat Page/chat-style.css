@@ -1,0 +1,193 @@
+body {
+    /* margin: 0px; */
+    overflow: overlay;
+    color: white;
+    font-family: 'montserrat';
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.message-box{
+    background-color: #000000;
+    background-image: url('prism.png');
+    color: wheat;
+    border: 0 solid black;
+    border-radius: 5px;
+    max-width: 80%;
+    /* height: 88vh; */
+    height: 62vh;
+    margin-left: 21%;
+    overflow-y: auto;
+    box-shadow: 1px 1px 12px #460505;
+}
+
+.message-box::-webkit-scrollbar {
+    display: none;
+}
+
+.msg{
+    border: 0px solid white;
+    background-color: black;
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 9px black;
+    word-wrap: break-word;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 1%;
+}
+
+#msgInp{
+    color: black;
+    background-color: white;
+    width: 55%;
+    /* position: absolute; */
+    position: relative;
+    right: 4px;
+    bottom: 2vh;
+    padding: 1%;
+    padding-left: 1.5%;
+    margin-left: 20%;
+    border-radius: 5px;
+    box-shadow: -4px 1px 15px black;
+    border: none;
+    outline: none;
+}
+
+.center{
+    display: block;
+    text-align: center;
+    clear: both;
+}
+
+.online-container{
+    background-color: #000000;
+    background-image: url('prism.png');
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 97.6vh;
+    position: absolute;
+    overflow-y: auto;
+}
+
+.online-container::-webkit-scrollbar {
+    display: none;
+}
+
+h4,li{
+    text-align: center;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+#active-users li{
+    color: red;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px 38px 5px auto;
+    background: black;
+    font-weight: bold;
+    box-shadow: 1px 1px 12px black;
+}
+
+#active-users li:hover{
+    background-color: #ade0fb;
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 5px;
+    background-color: red;
+    width: 10%;
+    color: white;
+    position: relative;
+    bottom: 2vh;
+    right: 5px;
+    font-weight: bold;
+    padding: 1%;
+    border: none;
+    clear: both;
+    outline: none;
+    box-shadow: 4px 1px 15px black;
+    trans: all, .25s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.list-group{
+    /* display: none; */
+    /* border: 2px solid yellow;
+    position: relative;
+    left: 41vh;
+    bottom: 9vh;
+    width: 55%;
+    z-index: 2; */
+
+    background-image: url(prism.png);
+    margin: -1% 0 2% 21%;
+    border-radius: 5px;
+    width: 79%;
+    height: 23vh;
+}
+
+#list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	padding-top: 0.5%;
+}
+
+#list li{
+    /* display: inline;
+    color: black;
+    background-color: wheat;
+    position: relative;
+    margin: 0 .5%;
+    padding: 0 .5%;
+    z-index: 3;
+    /* border: 2px solid red; */
+    /* border-radius: 2px;
+    box-shadow: 1px 2px 9px black; */
+
+  	display: inline;
+    color: white;
+    background-color: black;
+    margin: 1% 1.5%;
+    padding: 0.5% 1.5%;
+    border-radius: 2px;
+    box-shadow: 0px 2px 17px black;
+}
+
+#list li:hover{
+    cursor: pointer;
+}
